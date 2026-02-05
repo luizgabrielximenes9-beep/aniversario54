@@ -39,10 +39,14 @@
 
         .fotos {
             display: flex;
-            flex-direction: column;
+            flex-direction: column;m
             justify-content: center;
+            align-items: flex-start;
             gap: 12px;
             margin: 15px 0;
+        }
+        .fotos:nth-child(odd) {
+            align-items: flex-end;
         }
 
         .fotos img {
